@@ -1,0 +1,377 @@
+.geral {
+	background-color: #cdf0ff;
+}
+
+.divPrincipal {
+	top: 10px;
+	width: 980px;
+	left: 50%; 
+	margin-left: -475px;
+	border: 0px solid black;
+	position: absolute;
+	background-color: White;
+}
+
+.divCabecalho {
+	clear: both;
+	width: 980px;
+	height: 186px;
+}
+
+.divLogo {
+	float: left;
+	background-image: url(../imagens/area_logo.jpg);
+	width: 283px;
+	height: 186px;
+}
+
+.divCentroTopo {
+	float: left;
+	background-image: url(../imagens/meio_topo.jpg);
+	width: 282px;
+	height: 130px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.divFimTopo {
+	float: left;
+	background-image: url(../imagens/fim_topo.jpg);
+	width: 414px;
+	height: 130px;
+}
+
+.divBaseTopo {
+	float: left;
+	background-image: url(../imagens/base_topo.jpg);
+	width: 697px;
+	height: 56px;	
+}
+
+
+
+.divConteudo {
+	clear: both;
+	background-color: White;
+	width: 977px;
+}
+
+.divBarraLateral {
+	float: left;
+	width: 207px;
+}
+
+.divMenuTopo {
+	float: left;
+	width: 207px;	
+	height: 41px;
+	background-image: url(../imagens/topo_menu.jpg);
+	background-repeat: no-repeat;
+}
+
+.divMenu {
+	float: left;
+	width: 207px;	
+	background-image: url(../imagens/linha_menu.jpg);
+	background-repeat: repeat-y;
+}
+
+.divAtalhos {
+	float: none;
+	width: 207px;
+	background-image: url(../imagens/linha_menu.jpg);
+	background-repeat: repeat-y;	
+	vertical-align: middle;
+	text-align: center;
+}
+
+.divMenuBase {
+	float: left;
+	width: 207px;	
+	height: 141px;
+	background-image: url(../imagens/base_menu.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+
+
+.divLogin {
+	float: none;
+	width: 207px;
+	height: 120px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.divCorpoConteudo {
+	float: right;
+	width: 750px;
+	height: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	background-color: White;
+}
+
+.divEspacador {
+	width: 100%;
+	height: 5px;
+	background-color: White;
+}
+
+.divAgrupador {
+	width: 100%;
+}
+
+.divRodape {
+	clear: both;
+	height: 83px;
+	width: 980px;
+}
+
+.divAbreRodape {
+	float: left;
+	height: 83px;
+	width: 427px;
+	background-image: url(../imagens/inicio_rodape.jpg);
+	background-repeat: no-repeat;
+}
+
+.divCorpoRodape {
+	float: left;
+	height: 83px;
+	width: 550px;
+	background-image: url(../imagens/coluna_rodape.jpg);
+	background-repeat: repeat-x;
+}
+
+.divSecoes {
+	float: right;
+	height: 30px;
+	width: 395px;
+	margin-right: 10px;
+	margin-top: 5px;
+	text-align: right;
+}
+
+.divAbreSecao {
+	float: right;
+	height: 28px;
+	width: 13px;
+	background-image: url(../imagens/abre_secao.png);
+	background-repeat: no-repeat;	
+}
+
+.divMeioSecao {
+	float: right;
+	height: 28px;
+	background-image: url(../imagens/meio_secao.png);
+	background-repeat: repeat-x;	
+ }
+
+.divFechaSecao {
+	float: right;
+	height: 28px;
+	width: 13px;
+	background-image: url(../imagens/fecha_secao.png);
+	background-repeat: no-repeat;	
+}
+
+
+.divFotosMateriaAreaCentral {
+	width: 100%;
+	text-align: center;
+}
+
+.divDadosEquipe {
+	clear: both;
+	width: 100%;
+	height: 150px;	
+}
+
+.divFotoEquipe {
+	float: right;
+	width: 140px;
+	background-color: #e6f0f6;
+	padding: 5px 5px 5px 5px;	
+}
+
+.divFotoColaborador {
+	float: left;
+	width: 140px;
+	background-color: #e6f0f6;
+	padding: 5px 5px 5px 5px;	
+}
+
+.divLinksCategoriasOn {
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 5px;
+	background-color: #e6f0f6;
+	width: 100%;	
+}
+
+.divLinksCategoriasOf {
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 5px;	
+	background-color: White;
+	width: 100%;	
+}
+
+.divLink {
+	float: left;
+	width: 100%;	
+}
+
+.divTitulosLinks {
+	float: left;
+	width: 70%;	
+	text-align: left;
+}
+
+.divLinksLinks {
+	float: right;
+	width: 20%;	
+	text-align: right;
+	margin-right: 10px;
+}
+
+.divFotoLinkOn {
+	float: left;
+	width: 140px;
+	background-color: White;
+	padding: 5px 5px 5px 5px;	
+	margin: 5px 5px 5px 5px;	 
+}
+
+.divFotoLinkOf {
+	float: left;
+	width: 140px;
+	background-color: #e6f0f6;
+	padding: 5px 5px 5px 5px;	
+	margin: 5px 5px 5px 5px;	 
+}
+
+.divFotosLaboratorios {
+	margin-top: 10px;
+	width: 100%;
+	float: right;		
+	padding: 5px 5px 5px 5px;
+	border-style: solid;
+	border-bottom: 1px;
+	border-left: 0px;
+	border-top: 1px;
+	border-right: 0px;
+	border-color: #005279;
+	text-align: right;
+}
+
+.divLinkHorariosDuplo {
+	float: left;
+	width: 49%;	
+	height: 90px;
+	background-image: url(../icones/caixa_horarios.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.divLinkHorarios {
+	float: left;
+	width: 100%;	
+	height: 90px;
+	background-image: url(../icones/caixa_horarios.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.divEventosPeriodo {
+	float: left;
+	width: 100%;	
+}
+
+.divNoticiasDestaque {
+	float: left;
+	width: 100%;	
+	background-color: #e6f0f6;
+}
+
+.divFotoNoticiasDestaques {
+	float: left;
+	width: 140px;
+	background-color: White;
+	padding: 5px 5px 5px 5px;	
+	margin: 5px 5px 5px 5px;
+}
+
+.divNoticiasSecundarias {
+	float: left;
+	width: 64%;	
+}
+
+.divFotoNoticiasSecundarias {
+	float: left;
+	width: 80px;
+}
+
+.divMaisNoticias {
+	float: right;
+	width: 34%;	
+}
+
+.divInformacoesProfessores {
+	float: left;
+	width: 100%;	
+	padding: 5px 5px 5px 5px;	
+	background-color: #e6f0f6;
+}
+
+.divIconeDireita {
+	float: right;
+	width: 50px;	
+}
+
+.divPaginaInicial {
+	float: none;
+	width: 100%;
+	height: 100%;
+}
+
+.divNoticiasCapaDestaqueDepartamento {
+	float: left;
+	width: 80%;
+	background-color: #e6f0f6;
+}
+
+.divNoticiasCapaDestaqueCursos {
+	float: left;
+	width: 100%;
+	background-color: #e6f0f6;
+}
+
+.divAtalhosIniciais {
+	float: right;
+	width: 18%;
+	text-align: right;
+}
+
+.divHistoricoCapa {
+	float: left;
+	width: 100%;
+}
+
+.divPaginaInicialTresColunasLateral {
+	float: left;
+	width: 32%;
+}
+
+.divPaginaInicialTresColunasCentro {
+	float: left;
+	width: 32%;
+	background-color: #e6f0f6;
+}

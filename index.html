@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>DSC - Home</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <script src="scripts/index.js"></script>
+</head>
+<body>
+    <div id="main" class="main align-center">
+        <div class="corpo">
+            <header class="fundo-azul not-growing-padding">
+                <a href="#" title="Site Oficial da Universidade Regional de Blumenau"><img src="resources/images/logos/furb.png" class="logo" /></a>
+                <div id="headerMenuGroup" class="header-menu-group">
+                    <button><img src="resources/images/logos/bcc.png" /> BCC</button>
+                    <button><img src="resources/images/logos/sis.png" /> SIS</button>
+                    <button><img src="resources/images/logos/seminco.png" /> SEMINCO</button>
+                    <button><img src="resources/images/logos/dsc.png" /> DSC</button>
+                    <button><img src="resources/images/logos/lci.png" /> LCI</button>
+                </div>
+                <center><h1>DSC - Departamento de Sistemas e Computação</h1></center>
+            </header>
+            <div id="pageItems" class="group page-items">
+                <div id="sidebarLeft" class="sidebar sidebar-left not-growing-padding">
+                    <div class="fundo-azul">
+                        <nav id="sidebarLeftMenu" class="group menu">
+                            <ul>
+                                <li class="menu-item current"><a href="#">Home</a></li>
+                                <li class="menu-item"><a href="#">Câmeras</a></li>
+                                <li class="menu-item"><a href="#">Disciplinas</a></li>
+                                <li class="menu-item"><a href="#">Grupos de Pesquisa</a></li>
+                                <li class="menu-item"><a href="#">Horários</a></li>
+                                <li class="menu-item"><a href="#">Infraestrutura</a></li>
+                                <li class="menu-item"><a href="#">Monitores</a></li>
+                                <li class="menu-item"><a href="#">Notícias</a></li>
+                                <li class="menu-item"><a href="#">Professores</a></li>
+                                <li class="menu-item"><a href="#">Quem Somos</a></li>
+                                <li class="menu-item"><a href="#">Serviços</a></li>
+                                <li class="menu-item"><a href="#">TCC</a></li>
+                            </ul>
+                        </nav>
+                        <div id="sidebarLeftShortcuts" class="group shortcuts">
+                            <a href="#"><img src="resources/images/icons/logo_2013_08_09_19_53_11.png" /></a>
+                            <a href="#"><img src="resources/images/icons/logo_2013_08_09_19_48_22.png" /></a>
+                            <a href="#"><img src="resources/images/icons/logo_2013_08_09_19_48_54.png" /></a>
+                        </div>
+                        <div class="group">
+                            <form id="loginForm" class="login-group">
+                                <label>Área restrita:</label>
+                                <input id="loginUser" type="text" placeholder="Usuário" />
+                                <input id="loginPassword" type="password" placeholder="Senha" />
+                                <button onclick="realizarLogin(this.parentElement)" type="submit">Efetuar Login</button>
+                            </form>
+                            <div id="logoutForm" hidden="True" class="logout-group">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mainCenter" class="main-center">
+                    <div id="noticias" class="noticias">
+                        <article class="blocoNoticia">
+                            <h3><a>Coordenação do BCC e CALCOMP recepcionam os calouros</a></h3><br />
+                            <p>
+                                No dia 25/02, a FURB recepcionou seus calouros 2019/1.
+                                Após o evento institucional, o curso de Ciência da Computação recebeu suas novas turmas com um café, patrocinado pelo CALCOMP (Centro Acadêmico Livre de Computação).
+                                Conversas, informações, visitas aos laboratórios e espaços que os estudantes vão frequentar na sua jornada de universitários fizeram parte das boas-vindas.
+                                Para a turma noturna, o CALCOMP organizou o programa "Adote um calouro", pelo qual alunos veteranos apadrinham um calouro, sendo sua referência para trocar informações e dicas a respeito do curso e da ...
+                            </p>
+                            <a href="#" class="read-more">Leia Mais</a>
+                        </article>
+                        <article class="blocoNoticia">
+                            <h3><a>03/12 - HackaTruck MakerSpace inicia hoje na FURB</a></h3><br />
+                            <p>
+                                <img src="resources/images/292_2018_12_03_19_47_06.jpg" style="max-width: 250px;" />
+                                Iniciou hoje (03/12) o HackaTruck MakerSpace, capacitação em desenvolvimento iOS com aplicação em Internet das Coisas (IoT) usando serviços em nuvem. Uma parceria entre FURB e IBM.
+                                Com duas turmas (uma vespertina e outra noturna), estudantes dos cursos de Ciência da Computação e de Sistemas de Informação da FURB estão se especializando em metodologias mais avançadas de desenvolvimento (DevOps, Agile, Scrum e Design Thinking) e tecnologias (IoT, IBM Bluemix cloud services, Swift).
+                                O curso terá duração de três semanas e será altamente prático. Além de usar a metodologia CBL (Challenge ...
+                            </p>
+                            <a href="#" class="read-more">Leia Mais</a>
+                        </article>
+                    </div>
+                </div>
+                <div id="sidebarRight" class="sidebar sidebar-right">
+                    <div class="group">
+                        <a href="#"><img src="resources/images/icons/relogio.png" /></a>
+                    </div>
+                    <div class="group">
+                        <a href="#"><img src="resources/images/icons/infraestrutura.png" /></a>
+                    </div>
+                    <div class="group">
+                        <a href="#"><img src="resources/images/icons/tcc.png" /></a>
+                    </div>
+                </div>
+            </div>
+            <footer class="fundo-azul not-growing-padding">
+                Alan Felipe Jantz - 2019
+            </footer>
+        </div>
+    </div>
+    <script>
+        window.onload = function () {
+            addListener('animeList');
+        }
+    </script>
+</body>
+</html>

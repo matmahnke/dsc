@@ -1,0 +1,20 @@
+/****** MENU *******/
+ul.menu {
+	text-align: left;
+	list-style: none;
+}
+
+.liBotaoMenu {
+	width: 100%;
+	padding-top: 4px;
+}
+
+.liBotaoMenuSelecionado {
+	width: 100%;
+	padding-top: 4px;
+	font-weight: bolder;
+}
+
+.liBotaoMenu:hover {
+   text-decoration: underline;
+}

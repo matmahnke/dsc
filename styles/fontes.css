@@ -1,0 +1,798 @@
+h1 {
+	padding-left: 10px;
+	padding-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #00549a;
+	font-size: 18px;
+	font-style: bold;
+	font-variant: small-caps;
+}
+
+h2 {
+	padding-left: 10px;
+	padding-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #00549a;
+	font-size: 16px;
+	font-style: bold;
+	font-variant: small-caps;
+}
+
+h3 {
+	padding-left: 10px;
+	padding-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #00549a;
+	font-size: 14px;
+	font-variant: small-caps;
+	vertical-align: middle;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #00549a;
+	text-align: justify;
+}
+
+.fontNomeSecao {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: White;
+	text-align: justify;
+	font-variant: small-caps;
+	font-weight: bolder;
+}
+
+.fontDadosContatos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #00549a;
+	text-align: justify;
+	line-height: 25px;
+}
+
+.fontChamadaHorariosGrande {
+	height: 50px;
+	vertical-align: bottom;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #00549a;
+	font-size: 16px;
+	font-style: bold;
+}
+
+.fontChamadaHorariosMedio {
+	height: 30px;
+	vertical-align: top;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #00549a;
+	font-size: 14px;
+	font-style: bold;
+}
+
+
+.fontMembrosColegiado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #00549a;
+	margin-bottom: 2px;
+	margin-top: 2px;	
+	text-align: center;
+	font-weight: bold;
+}
+
+.fontDadosColegiado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #00549a;
+	margin-bottom: 2px;
+	margin-top: 2px;	
+	text-align: center;
+}
+
+.fontConteudo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #00549a;
+	margin-bottom: 2px;
+	margin-top: 2px;	
+}
+
+.fontConteudoAlerta {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #f41b07;
+	margin-bottom: 2px;
+	margin-top: 2px;	
+	text-align: center;
+}
+
+.fontConteudoSucesso {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #8ccb59;
+	margin-bottom: 2px;
+	margin-top: 2px;	
+	text-align: center;
+}
+
+.fontSecoesCapa {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #00549a;		
+	text-align: center;
+}
+
+.fontLink {
+	text-decoration: none;	
+	color: #00549a;
+}
+
+.fontLink:hover {
+	text-decoration: underline;
+}
+
+.fontLeiaMais {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #00549a;
+	text-align: right;	
+}
+
+.fontLinkLeiaMais {
+	text-decoration: none;	
+	color: #00549a;
+}
+
+.fontLinkLeiaMais:hover {
+	text-decoration: underline;
+}
+
+.fontLinkHorarios {
+	color: #00549a;
+	text-decoration: none;	
+}
+
+.fontLinkHorarios:hover {
+	text-decoration: underline;
+}
+
+.fontVejaTambem {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #f41b07;
+	margin-bottom: 2px;
+	margin-top: 2px;	
+	text-align: right;
+}
+
+.fontLinkVejaTambem {
+	text-decoration: none;	
+	color: #f41b07;
+}
+
+.fontLinkVejaTambem:hover {
+	text-decoration: underline;
+}
+
+.fontDetalhamentoFoto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin-top: -2px;
+	color: #00549a;
+	text-align: center;
+}
+
+.fontComandosFiltros {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #00549a;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+	text-decoration: none;
+}
+
+.fontComandosLinksCentrais {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #00549a;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: top;
+	text-decoration: none;
+}
+
+a.dcontexto{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #00549a;
+	text-decoration: none;	
+	position:relative; 
+	padding:0;
+  	cursor:help; 
+}
+
+a.dcontexto:hover{
+	background:transparent;
+}
+
+a.dcontexto span {
+	display: none;
+}
+
+a.dcontexto:hover span { 
+	display: block;
+  	position: absolute;
+  	width: 250px; 
+	left: -120px;
+	top: -120px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: White;
+	padding: 5px 5px 5px 5px;
+	border:1px solid #999;
+  	background:#cfe4e4;
+  	color: #00549a;
+}
+
+a.dfoto{
+	text-decoration: none;	
+	position:relative; 
+	padding:0;
+  	cursor: pointer;
+}
+
+a.dfoto:hover{
+	background:transparent;
+}
+
+a.dfoto span {
+	display: none;
+}
+
+a.dfoto:hover span { 
+	display: block;
+  	position: absolute;
+	top: 50px; 
+	left: -200px;
+	border:1px solid #6CA3CE;
+	background-color: White;
+	margin:5px 0 0 10px;
+	padding: 5px 5px 5px 5px;
+	background-image:url(../img/fundo_input.jpg);
+	background-repeat: repeat-x;
+	font-size:12px;
+}
+
+/*
+.fontLinkMenuSuperior {
+	color: White;
+   font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+.fontLinkMenuSuperior:hover {
+	text-decoration: underline;
+}
+
+.fontLinkMenuSuperiorSelecionado {
+   font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+	text-decoration: none;
+	color: White;
+	font-weight: bolder;	
+}
+
+
+
+
+
+
+.fontCaminho {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: left;
+	text-decoration: none;
+	color: #000036;
+	margin-bottom: 2px;
+	margin-top: 0px;
+}
+
+.fontCaminho:hover {
+	text-decoration: underline;
+}
+
+
+
+.fontAjudaPrincipal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	padding-left: 10px;
+	color: #000036;
+}
+
+.fontAjudaSecundario {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding-left: 25px;
+	color: #000036;
+}
+
+.fontAjudaTerciario {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding-left: 40px;
+	color: #000036;
+}
+
+
+h1 {
+	padding-left: 10px;
+	padding-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: White;
+	font-size: 20px;
+	font-style: bold;
+	font-variant: small-caps;
+}
+
+
+
+
+
+
+.fontConteudoMedicao {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000036;
+}
+
+
+
+.fontOpcoes {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000036;
+	margin-bottom: 2px;
+	margin-top: 2px;	
+	font-variant: small-caps;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fontOpcoes:hover {
+	text-decoration: underline;	
+}
+
+.fontLink {
+	text-decoration: none;	
+	color: #000036;
+}
+
+.fontLink:hover {
+
+	text-decoration: underline;
+}
+
+.fontLinkAjuda {
+	text-decoration: none;	
+	color: #8ccb59;
+}
+
+.fontLinkAjuda:hover {
+	text-decoration: none;	
+	color: #417a57;
+}
+
+
+a.dcontextoarvoreesquerda{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000036;
+	text-decoration: none;	
+	position:relative; 
+	padding:0;
+  	cursor:help; 
+}
+
+a.dcontextoarvoreesquerda:hover{
+	background:transparent;
+}
+
+a.dcontextoarvoreesquerda span {
+	display: none;
+}
+
+a.dcontextoarvoreesquerda:hover span { 
+	display: block;
+  	position: absolute;
+  	width: 300px; 
+	left: 0px;
+	top: -30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: White;
+	padding: 5px 5px 5px 5px;
+	border:1px solid #999;
+  	background:#dafdbe;
+  	color: #4f4b4a;
+}
+
+
+a.dcontextoarvoredireita{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000036;
+	text-decoration: none;	
+	position:relative; 
+	padding:0;
+  	cursor:help; 
+}
+
+a.dcontextoarvoredireita:hover{
+	background:transparent;
+}
+
+a.dcontextoarvoredireita span {
+	display: none;
+}
+
+a.dcontextoarvoredireita:hover span { 
+	display: block;
+  	position: absolute;
+  	width: 300px; 
+	left: -300px;
+	top: -30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: White;
+	padding: 5px 5px 5px 5px;
+	border:1px solid #999;
+  	background:#dafdbe;
+  	color: #4f4b4a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fontEnderecoTitulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: Black;
+	font-weight: bolder;
+}
+
+.fontEndereco {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: Black;
+}
+
+.fontImpressaoTitulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: Black;
+	font-weight: bolder;
+}
+
+.fontImpressao {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: Black;
+}
+
+
+
+
+
+
+
+
+
+.fontBloqueioAcesso {
+	font-family: Arial, Helvetica, sans-serif;
+	color: White;
+	font-size: 13px;
+	margin-bottom: 0;
+	margin-top: 20;
+	font-style: bold;
+}
+
+
+
+
+
+.fontRodape {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4f4b4a;
+	margin-top: 22px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.fontLinkRodape {
+	color: #4f4b4a;
+	text-decoration: none;
+}
+
+.fontLinkRodape:hover {
+	color: White;
+	text-decoration: underline;
+}
+
+
+a.dcontextochat{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: White;
+	text-decoration: none;	
+	position:relative; 
+	padding:0;
+  	cursor:help; 
+}
+
+a.dcontextochat:hover{
+	background:transparent;
+}
+
+a.dcontextochat span {
+	display: none;
+}
+
+a.dcontextochat:hover span { 
+	display: block;
+  	position: absolute;
+  	width: 500px; 
+	left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: White;
+	padding: 5px 5px 5px 5px;
+	border:1px solid #999;
+  	background:#c3c3c1;
+  	color: White;
+}
+
+
+
+a.dcontextochatmensagem{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: White;
+	text-decoration: none;	
+	position:relative; 
+	padding:0;
+  	cursor:help; 
+}
+
+a.dcontextochatmensagem:hover{
+	background:transparent;
+}
+
+a.dcontextochatmensagem span {
+	display: none;
+}
+
+a.dcontextochatmensagem:hover span { 
+	display: block;
+  	position: absolute;
+  	width: 200px; 
+	left: -200px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: White;
+	padding: 5px 5px 5px 5px;
+	border:1px solid #999;
+  	background:#c3c3c1;
+  	color: White;
+}
+
+
+
+
+a.dcontextoinvertido{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #4f4b4a;
+	text-decoration: none;	
+	position:relative; 
+	padding:0;
+  	cursor:help; 
+}
+
+a.dcontextoinvertido:hover{
+	background:transparent;
+}
+
+a.dcontextoinvertido span {
+	display: none;
+}
+
+a.dcontextoinvertido:hover span { 
+	display: block;
+  	position: absolute;
+  	width: 500px; 
+	left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: White;
+	padding: 5px 5px 5px 5px;
+	border:1px solid #999;
+  	background:#4f4b4a;
+  	color: #c3c3c1;
+}
+
+.fontCabecalhoImpressaoTitulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: Black;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.fontCabecalhoImpressaoEndereco {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: Black;
+	padding-left: 10px;
+}
+
+.fontConteudoImpressao {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: Black;
+}
+*/
+
+.fontLinkMenuLateral {
+   font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: White;
+   list-style: none;
+	text-decoration: none;	
+	font-weight: normal;
+}
+
+.fontLinkMenuLateral:hover {
+	text-decoration: underline;
+}
+
+.fontLinkMenuLateralSelecionado {
+   font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: White;
+   list-style: none;
+	text-decoration: blink;
+	font-weight: bolder;
+}
+
+.fontLinkSubMenuLateral {
+   font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: White;
+   list-style: none;
+	text-decoration: none;	
+	font-weight: normal;
+}
+
+.fontLinkSubMenuLateral:hover {
+	text-decoration: underline;
+}
+
+.fontLinkSubMenuLateralSelecionado {
+   font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: White;
+   list-style: none;
+	text-decoration: blink;
+	font-weight: bolder;
+}
+
+.fontLogin {
+   font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: oblique;
+	font-weight: bolder;
+	color: #183883;
+}
+
+.fontCampoLogin {
+   font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: oblique;
+	font-weight: bolder;
+	color: #183883;
+	border: 1px;
+	border-style: inset;
+	border-color: #183883;
+	font-weight: normal;
+}
+
+.fontBotaoLogin {
+   font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: oblique;
+	font-weight: bolder;
+	color: #183883;
+	text-align: center;
+	width: 175px;
+}
+
+.fontErroLogin {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: oblique;
+	font-weight: bolder;
+	color: Red;
+}
+
+.fontLogado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;	
+	color: #183883;
+}
+
+.fontLinkLogin {
+   font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+	text-decoration: none;
+	color: White;
+	text-decoration: none;
+}
+
+.fontLinkLogin:hover {
+	text-decoration: underline;
+}
+
+.fontLinkSecao {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #183883;
+	text-decoration: none;
+}
+
+.fontLinkExibicao {
+	color: #183883;
+	text-decoration: none;
+}
+
+.fontLinkExibicao:hover {
+	color: White;
+	text-decoration: underline;
+}
